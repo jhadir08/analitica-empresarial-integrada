@@ -1,7 +1,6 @@
 # Semana 3 — La métrica que importa
 
 **Estudiante:** Jhadir Abdel Yupanqui Chahua  
-**Curso:** Analítica Empresarial Integrada, TECSUP 2026-II.
 
 [Abrir notebook ejecutado](LAB-D3-AEI-PSAYAN-2026-02_YUPANQUI.ipynb)
 
@@ -25,10 +24,3 @@ python -m jupyter nbconvert --execute --to notebook --inplace LAB-D3-AEI-PSAYAN-
 
 Se necesita conexión a UCI para descargar los datos. Los gráficos incluyen una vista estática para GitHub y una representación interactiva para entornos compatibles. No se requiere Colab. La última celda exporta las métricas y el resumen de validación en el directorio de ejecución.
 
-## Resultados y límites
-
-Junio presenta la mayor caída comparable de compras recurrentes: −9,44 %. Mayo, septiembre, octubre y noviembre cumplen la regla académica de crecimiento positivo con cancelación inferior a la media mensual.
-
-La ventana es enero-noviembre de 2011. Enero se trata como calentamiento; febrero se excluye del diagnóstico de variaciones porque se compara contra enero. Las metas son supuestos académicos. Se conservan los duplicados de la fuente según el criterio del laboratorio y se explicita su posible impacto; se excluyen clientes sin identificador de las métricas de recurrencia. Las asociaciones no prueban causalidad y los datos históricos no describen la situación actual de la empresa.
-
-Fuente: Chen, D. (2015). [Online Retail — UCI](https://doi.org/10.24432/C5BW33).
