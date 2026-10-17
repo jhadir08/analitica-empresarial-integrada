@@ -13,6 +13,7 @@
 | 02 | Competencia analítica y madurez organizacional | Perfil analítico comparado |
 | 03 | La métrica que importa | [Notebook ejecutado: North Star, drivers, guardrails y decisiones](Semana_03/LAB-D3-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) |
 | 04 | Analítica diagnóstica | Descomposición de variaciones |
+| 09 | RFM, churn y decisión de retención | [Notebook ejecutado con preguntas 1–9 resueltas](semana09/LAB-D9-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) |
 
 ## Herramientas
 
@@ -24,3 +25,7 @@ Python · pandas · Polars · DuckDB · Plotly · Streamlit · Google Colab
 ## Semana 3
 
 El [Laboratorio 3](Semana_03/LAB-D3-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) contiene todas las preguntas respondidas, los cinco ejercicios de aplicación, tablas y gráficos visibles, el diccionario de KPI y la interpretación empresarial. [Instrucciones de ejecución y criterios del análisis](Semana_03/README.md).
+
+## Semana 9
+
+El [Laboratorio 9](semana09/LAB-D9-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) incluye explicaciones antes de cada celda, RFM, modelo de churn, selección de política en validación, evaluación económica en prueba, sensibilidad y cierre ejecutivo. [Fuente, ejecución y limitaciones](semana09/README.md).
