@@ -1,0 +1,3 @@
+﻿,modelo,percentil_base,umbral,p_base,lecturas_seguimiento,alertas,episodios,en_ventana,ventanas_cubiertas,ventanas_evaluables,dias_fuera,revisables,cola,coincidencia_pct
+0,Cuatro variables,0.99,0.6060169567453604,0.010071942446043165,14112,495,17,2,1,2,8,11,6,11.764705882352942
+1,Solo valor,0.99,0.5891758339059412,0.010071942446043165,14112,459,4,1,1,2,4,4,0,25.0

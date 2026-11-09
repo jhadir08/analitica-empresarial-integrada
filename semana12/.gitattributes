@@ -1,0 +1,4 @@
+# Preserve upstream bytes so SHA-256 checks work after cloning on Windows and Linux.
+datos/* -text
+# Keep the source README exactly as published, including its original whitespace.
+datos/README-NAB.md -whitespace
