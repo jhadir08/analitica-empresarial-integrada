@@ -14,7 +14,8 @@
 | 03 | La métrica que importa | [Notebook ejecutado: North Star, drivers, guardrails y decisiones](Semana_03/LAB-D3-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) |
 | 04 | Analítica diagnóstica | Descomposición de variaciones |
 | 09 | RFM, churn y decisión de retención | [Notebook ejecutado con preguntas 1–9 resueltas](semana09/LAB-D9-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) |
-| 12 | Detección de anomalías y priorización de alertas | [Notebook ejecutado con diez respuestas](semana12/LAB-D12-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) |
+| 12 | Detección de anomalías y priorización de alertas | [Notebook ejecutado con diez respuestas](semana12/LAB-D12-AEI-PSAYAN-2026-02_YUPANQUI.ipynb)
+| 13 | Auditoría de modelos: sesgo, SHAP y cumplimiento | [Notebook ejecutado con cinco ejercicios y 18 respuestas](semana13/LAB-D13-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) |
 
 ## Herramientas
 
@@ -34,3 +35,7 @@ El [Laboratorio 9](semana09/LAB-D9-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) incluye ex
 ## Semana 12
 
 El [Laboratorio 12](semana12/LAB-D12-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) desarrolla el caso NAB de sensores de temperatura con Isolation Forest, carta p, sensibilidad de umbrales y diez respuestas justificadas. [Fuentes, resultados y reproducción](semana12/README.md).
+
+## Semana 13
+
+El [Laboratorio 13](semana13/LAB-D13-AEI-PSAYAN-2026-02_YUPANQUI.ipynb) incluye auditoría de UCI Adult por sexo, raza y edad, brechas por umbral, SHAP global/local, cinco ejercicios y un checklist de gobierno. El modelo predice ingresos y no es válido para evaluar crédito. [Instrucciones, alcance y reproducción](semana13/README.md).
