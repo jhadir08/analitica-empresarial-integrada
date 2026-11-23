@@ -1,0 +1,4 @@
+﻿id,tipo,hallazgo,evidencia,estado
+D01,Diseño de evaluación,La lista de términos de abstención se afinó con la batería fija. Sus aciertos no estiman el desempeño en preguntas nuevas.,Regla retrieve y casos 15–20 de la batería fija.,Documentado y medido fuera de la batería original
+D02,Comportamiento,La recuperación determinista se abstuvo en cuatro preguntas válidas reformuladas.,"X01, X02, X04 y X05.",Confirmado
+D03,Comportamiento,La recuperación determinista citó políticas generales en consultas fuera del alcance.,X09 y X10.,Confirmado
