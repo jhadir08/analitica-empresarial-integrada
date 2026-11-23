@@ -44,9 +44,12 @@
 </section>
 <section id="control"><h2>Control de entregas</h2><p id="nota-control"></p><div class="card"><div id="carta" class="plot"></div><div id="tabla-alertas"></div></div></section>
 <section id="gobierno"><h2>Auditoría del modelo</h2><p>Resultados por subgrupo en la partición de prueba. Las muestras pequeñas requieren cautela.</p><div class="card" id="tabla-auditoria"></div><div class="card" id="tabla-shap"></div></section>
-<section id="asistente"><h2>Asistente de políticas</h2><p>Recuperación de extractos de los documentos vigentes de crédito, devoluciones y entregas.</p>
+<section id="asistente"><h2>Asistente de políticas</h2><p>Consulta de políticas vigentes con GPT-6 Luna. Las preguntas evaluadas reproducen las respuestas guardadas.</p>
   <div class="card">
   <form id="preguntar"><label for="pregunta">Pregunta</label><div class="form-row"><input id="pregunta" required minlength="3" maxlength="300" placeholder="¿Cuál es el pedido mínimo en soles?"><button>Consultar</button></div></form>
+  <label id="acceso-luna" hidden>Código de acceso para consultas nuevas
+    <input id="token-luna" type="password" autocomplete="off"></label>
+  <label id="selector-pregunta" hidden>Preguntas evaluadas<select id="casos-luna"><option value="">Selecciona una pregunta</option></select></label>
   <div id="respuesta" role="status"></div>
   </div>
   <div class="card"><h3>Evaluación de 20 preguntas</h3><p id="indicadores"></p><details><summary>Ver resultados y defectos</summary><div id="tabla-pruebas"></div></details></div>

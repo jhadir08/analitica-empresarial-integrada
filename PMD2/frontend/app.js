@@ -6,7 +6,10 @@ const percent = n => n == null ? '—' : fmt(n*100,1)+' %';
 let data;
 async function api(path, options) {
   const response = await fetch('/api/'+path, options);
-  if (!response.ok) throw Error('El servicio no respondió. Intenta nuevamente.');
+  if (!response.ok) {
+    const failure=await response.json().catch(()=>({}));
+    throw Error(typeof failure.detail==='string'?failure.detail:'El servicio no respondió. Intenta nuevamente.');
+  }
   return response.json();
 }
 function table(id, columns, rows) {
@@ -104,6 +107,12 @@ function render() {
   table('tabla-shap',[['Variable',r=>r.variable],['SHAP medio absoluto',r=>fmt(r.impacto_abs,3)],
     ['Dirección del modelo',r=>r.coeficiente_log_odds>0?'Aumenta el riesgo':'Reduce el riesgo']],data.shap);
   const tests=data.evaluacion_asistente;
+  const select=el('casos-luna');
+  for(const record of tests.filter(r=>r.motor==='gpt-6-luna')){
+    const item=node('option',record.pregunta); item.value=record.pregunta; select.append(item);
+  }
+  el('selector-pregunta').hidden=false;
+  el('acceso-luna').hidden=!data.luna_en_vivo;
   const engines=[...new Set(tests.map(r=>r.motor))];
   el('indicadores').textContent=engines.map(m=>{
     const rows=tests.filter(r=>r.motor===m);
@@ -119,13 +128,21 @@ document.querySelector('nav').addEventListener('click',event=>{
     document.querySelector('nav .activo')?.classList.remove('activo'); event.target.classList.add('activo');
   }
 });
+el('casos-luna').addEventListener('change',()=>{
+  const value=el('casos-luna').value;
+  if(!value)return;
+  el('pregunta').value=value;
+  if(!el('preguntar').hidden){el('preguntar').requestSubmit();return;}
+  const saved=data.evaluacion_asistente.find(r=>r.motor==='gpt-6-luna'&&r.pregunta===value);
+  el('respuesta').replaceChildren(node('p',saved.observado),node('p',saved.fuentes||'Abstención de la evaluación'));
+});
 el('preguntar').addEventListener('submit',async event=>{
   event.preventDefault();
   const button=event.currentTarget.querySelector('button');
   button.disabled=true;
   el('respuesta').textContent='Consultando políticas…';
   try {
-    const ans=await api('asistente',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pregunta:el('pregunta').value})});
+    const ans=await api('asistente',{method:'POST',headers:{'Content-Type':'application/json','X-PMD2-Access':el('token-luna').value},body:JSON.stringify({pregunta:el('pregunta').value})});
     el('respuesta').replaceChildren(node('p',ans.texto),...ans.fuentes.map(s=>node('p',s.id+' v'+s.version+' · '+s.title)));
   } catch(error) { el('respuesta').textContent=error.message; }
   finally {button.disabled=false}
