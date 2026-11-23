@@ -121,6 +121,26 @@ function render() {
   table('tabla-pruebas',[['Motor',r=>r.motor],['N.º',r=>r.id],['Pregunta',r=>r.pregunta],['Esperado',r=>r.esperado],
     ['Respuesta observada',r=>r.observado],['Fuente',r=>r.fuentes||'—'],['Resultado',r=>r.acierto?'Correcto':r.defecto]],tests);
 }
+async function loadAssistantEvidence() {
+  const response = await fetch('/evidencia-asistente.json');
+  if (!response.ok) throw Error('No se pudo cargar la evidencia de las preguntas nuevas.');
+  const {evaluacion_externa_asistente: tests, registro_defectos: defects} = await response.json();
+  const engines = ['gpt-6-luna', 'Determinista'];
+  el('indicadores-externos').textContent = engines.map(engine => {
+    const rows = tests.filter(r => r.motor === engine);
+    const label = engine === 'gpt-6-luna' ? 'GPT-6 Luna' : 'Recuperación determinista';
+    return label + ' · ' + rows.filter(r => r.acierto).length + '/' + rows.length + ' aciertos';
+  }).join(' | ');
+  table('tabla-pruebas-externas', [
+    ['Caso', r => r.id], ['Motor', r => r.motor], ['Pregunta', r => r.pregunta],
+    ['Esperado', r => r.esperado], ['Respuesta observada', r => r.observado],
+    ['Fuente citada', r => r.fuentes || '—'], ['Resultado', r => r.acierto ? 'Correcto' : r.defecto]
+  ], tests);
+  table('tabla-defectos', [
+    ['Caso', r => r.id], ['Tipo', r => r.tipo], ['Hallazgo', r => r.hallazgo],
+    ['Evidencia', r => r.evidencia], ['Estado', r => r.estado]
+  ], defects);
+}
 el('zona').addEventListener('change',()=>{if(data)demand()});
 for(const id of ['capacidad','efecto'])el(id).addEventListener('change',()=>{if(data)optimization()});
 document.querySelector('nav').addEventListener('click',event=>{
@@ -165,3 +185,7 @@ async function loadDashboard() {
   }
 }
 loadDashboard().catch(error=>{el('estado').textContent=error.message;el('estado').className='status'});
+
+loadAssistantEvidence().catch(() => {
+  el('indicadores-externos').textContent = 'No se pudo cargar la evidencia de las preguntas nuevas.';
+});

@@ -1,5 +1,6 @@
 """Prepara los archivos estáticos de Netlify con el snapshot del checkpoint."""
 import argparse
+import csv
 import json
 import shutil
 from pathlib import Path
@@ -18,6 +19,15 @@ for name in ("index.html", "styles.css", "app.js"):
 snapshot = json.loads((project/"salidas"/"tablero.json").read_text(encoding="utf-8"))
 snapshot.pop("fuentes", None)
 (target/"tablero.json").write_text(json.dumps(snapshot,ensure_ascii=False),encoding="utf-8")
+evidence = {}
+for name in ("evaluacion_externa_asistente", "registro_defectos"):
+    with (project / "salidas" / f"{name}.csv").open(encoding="utf-8-sig", newline="") as source:
+        evidence[name] = list(csv.DictReader(source))
+for row in evidence["evaluacion_externa_asistente"]:
+    row["acierto"] = row["acierto"] == "True"
+(target / "evidencia-asistente.json").write_text(
+    json.dumps(evidence, ensure_ascii=False), encoding="utf-8",
+)
 if args.render_url:
     url = urlparse(args.render_url)
     if url.scheme != "https" or not url.hostname or not url.hostname.endswith(".onrender.com") or url.path not in ("","/") or url.query or url.fragment or url.username:
