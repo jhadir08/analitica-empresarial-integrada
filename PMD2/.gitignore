@@ -1,0 +1,6 @@
+__pycache__/
+*.duckdb
+*.duckdb.wal
+.env*
+.netlify/
+salidas/contactos_seudonimizados.csv

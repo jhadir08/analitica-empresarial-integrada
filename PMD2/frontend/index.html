@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suministros Sur · Plan operativo</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<aside>
+  <a class="marca" href="#resumen"><span aria-hidden="true">S</span><strong>Suministros Sur<small>Analítica empresarial</small></strong></a>
+  <nav aria-label="Secciones">
+    <a class="activo" href="#resumen">Resumen</a>
+    <a href="#demanda">Demanda</a>
+    <a href="#operaciones">Optimización</a>
+    <a href="#control">Control de entregas</a>
+    <a href="#gobierno">Auditoría</a>
+    <a href="#asistente">Asistente de políticas</a>
+  </nav>
+  <footer>Proyecto Integrador 2<br>Equipo 1 · TECSUP</footer>
+</aside>
+<main>
+<header><span>Plan operativo</span><span>2–29 noviembre 2026</span></header>
+<div id="estado" role="status">Cargando resultados del checkpoint…</div>
+<section id="resumen">
+  <p class="subtitulo">Cusco y Valle Sagrado</p><h1>Plan de abastecimiento y retención</h1>
+  <p class="intro">Compara las decisiones de compra, despacho y contacto comercial con la política actual.</p>
+  <div id="kpis" class="kpis"></div>
+  <p id="modelo" class="modelo"></p>
+</section>
+<section id="demanda">
+  <div class="section-head"><div><h2>Demanda solicitada</h2><p>Pronóstico semanal por zona y familia de insumo.</p></div>
+    <label>Zona<select id="zona"><option>Todas</option><option>Cusco ciudad</option><option>Valle Sagrado</option></select></label>
+  </div>
+  <div class="card"><div id="grafico" class="plot" aria-label="Pronóstico de demanda por semana"></div><div id="tabla-demanda"></div></div>
+</section>
+<section id="operaciones">
+  <div class="section-head"><div><h2>Optimización de recursos</h2><p>Beneficio de retención a seis meses y margen operativo a cuatro semanas.</p></div>
+  <div class="filters">
+    <label>Capacidad<select id="capacidad"><option value="1">Normal</option><option value=".85">−15 % logística</option></select></label>
+    <label>Efecto supuesto<select id="efecto"><option value="0">0 %</option><option value=".04" selected>4 %</option><option value=".09">9 %</option></select></label>
+  </div></div>
+  <div class="card" id="tabla-optim"></div><div class="card" id="tabla-despachos"></div>
+</section>
+<section id="control"><h2>Control de entregas</h2><p id="nota-control"></p><div class="card"><div id="carta" class="plot"></div><div id="tabla-alertas"></div></div></section>
+<section id="gobierno"><h2>Auditoría del modelo</h2><p>Resultados por subgrupo en la partición de prueba. Las muestras pequeñas requieren cautela.</p><div class="card" id="tabla-auditoria"></div><div class="card" id="tabla-shap"></div></section>
+<section id="asistente"><h2>Asistente de políticas</h2><p>Recuperación de extractos de los documentos vigentes de crédito, devoluciones y entregas.</p>
+  <div class="card">
+  <form id="preguntar"><label for="pregunta">Pregunta</label><div class="form-row"><input id="pregunta" required minlength="3" maxlength="300" placeholder="¿Cuál es el pedido mínimo en soles?"><button>Consultar</button></div></form>
+  <div id="respuesta" role="status"></div>
+  </div>
+  <div class="card"><h3>Evaluación de 20 preguntas</h3><p id="indicadores"></p><details><summary>Ver resultados y defectos</summary><div id="tabla-pruebas"></div></details></div>
+</section>
+</main>
+</body>
+</html>

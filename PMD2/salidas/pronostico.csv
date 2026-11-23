@@ -1,0 +1,49 @@
+﻿zona,familia,semana,modelo,unidades
+Cusco ciudad,Bolsas y film,2026-11-02,Ingenuo reciente,21
+Cusco ciudad,Bolsas y film,2026-11-09,Ingenuo reciente,21
+Cusco ciudad,Bolsas y film,2026-11-16,Ingenuo reciente,21
+Cusco ciudad,Bolsas y film,2026-11-23,Ingenuo reciente,21
+Cusco ciudad,Desinfección,2026-11-02,Ingenuo reciente,62
+Cusco ciudad,Desinfección,2026-11-09,Ingenuo reciente,62
+Cusco ciudad,Desinfección,2026-11-16,Ingenuo reciente,62
+Cusco ciudad,Desinfección,2026-11-23,Ingenuo reciente,62
+Cusco ciudad,Detergentes y limpiadores,2026-11-02,Holt-Winters,92
+Cusco ciudad,Detergentes y limpiadores,2026-11-09,Holt-Winters,77
+Cusco ciudad,Detergentes y limpiadores,2026-11-16,Holt-Winters,79
+Cusco ciudad,Detergentes y limpiadores,2026-11-23,Holt-Winters,79
+Cusco ciudad,Empaque descartable,2026-11-02,Ingenuo reciente,54
+Cusco ciudad,Empaque descartable,2026-11-09,Ingenuo reciente,54
+Cusco ciudad,Empaque descartable,2026-11-16,Ingenuo reciente,54
+Cusco ciudad,Empaque descartable,2026-11-23,Ingenuo reciente,54
+Cusco ciudad,Menaje descartable,2026-11-02,Ingenuo anual,66
+Cusco ciudad,Menaje descartable,2026-11-09,Ingenuo anual,62
+Cusco ciudad,Menaje descartable,2026-11-16,Ingenuo anual,66
+Cusco ciudad,Menaje descartable,2026-11-23,Ingenuo anual,49
+Cusco ciudad,Papel e higiene,2026-11-02,Holt-Winters,75
+Cusco ciudad,Papel e higiene,2026-11-09,Holt-Winters,72
+Cusco ciudad,Papel e higiene,2026-11-16,Holt-Winters,81
+Cusco ciudad,Papel e higiene,2026-11-23,Holt-Winters,68
+Valle Sagrado,Bolsas y film,2026-11-02,Holt-Winters,21
+Valle Sagrado,Bolsas y film,2026-11-09,Holt-Winters,20
+Valle Sagrado,Bolsas y film,2026-11-16,Holt-Winters,16
+Valle Sagrado,Bolsas y film,2026-11-23,Holt-Winters,25
+Valle Sagrado,Desinfección,2026-11-02,Holt-Winters,29
+Valle Sagrado,Desinfección,2026-11-09,Holt-Winters,27
+Valle Sagrado,Desinfección,2026-11-16,Holt-Winters,34
+Valle Sagrado,Desinfección,2026-11-23,Holt-Winters,34
+Valle Sagrado,Detergentes y limpiadores,2026-11-02,Ingenuo anual,59
+Valle Sagrado,Detergentes y limpiadores,2026-11-09,Ingenuo anual,47
+Valle Sagrado,Detergentes y limpiadores,2026-11-16,Ingenuo anual,40
+Valle Sagrado,Detergentes y limpiadores,2026-11-23,Ingenuo anual,35
+Valle Sagrado,Empaque descartable,2026-11-02,Holt-Winters,42
+Valle Sagrado,Empaque descartable,2026-11-09,Holt-Winters,56
+Valle Sagrado,Empaque descartable,2026-11-16,Holt-Winters,46
+Valle Sagrado,Empaque descartable,2026-11-23,Holt-Winters,49
+Valle Sagrado,Menaje descartable,2026-11-02,Holt-Winters,18
+Valle Sagrado,Menaje descartable,2026-11-09,Holt-Winters,23
+Valle Sagrado,Menaje descartable,2026-11-16,Holt-Winters,26
+Valle Sagrado,Menaje descartable,2026-11-23,Holt-Winters,23
+Valle Sagrado,Papel e higiene,2026-11-02,Holt-Winters,32
+Valle Sagrado,Papel e higiene,2026-11-09,Holt-Winters,34
+Valle Sagrado,Papel e higiene,2026-11-16,Holt-Winters,31
+Valle Sagrado,Papel e higiene,2026-11-23,Holt-Winters,30

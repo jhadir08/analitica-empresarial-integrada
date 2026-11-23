@@ -1,0 +1,49 @@
+﻿capacidad,politica,zona,familia,solicitado,despacho,compra_familia
+1.0,Actual ajustada,Cusco ciudad,Detergentes y limpiadores,327,55,348
+1.0,Actual ajustada,Valle Sagrado,Detergentes y limpiadores,181,181,348
+1.0,Actual ajustada,Cusco ciudad,Desinfección,248,164,195
+1.0,Actual ajustada,Valle Sagrado,Desinfección,124,124,195
+1.0,Actual ajustada,Cusco ciudad,Empaque descartable,216,216,318
+1.0,Actual ajustada,Valle Sagrado,Empaque descartable,193,193,318
+1.0,Actual ajustada,Cusco ciudad,Papel e higiene,296,296,270
+1.0,Actual ajustada,Valle Sagrado,Papel e higiene,127,108,270
+1.0,Actual ajustada,Cusco ciudad,Menaje descartable,243,243,212
+1.0,Actual ajustada,Valle Sagrado,Menaje descartable,90,75,212
+1.0,Actual ajustada,Cusco ciudad,Bolsas y film,84,84,121
+1.0,Actual ajustada,Valle Sagrado,Bolsas y film,82,82,121
+1.0,Propuesta,Cusco ciudad,Detergentes y limpiadores,327,153,14
+1.0,Propuesta,Valle Sagrado,Detergentes y limpiadores,181,0,14
+1.0,Propuesta,Cusco ciudad,Desinfección,248,247,277
+1.0,Propuesta,Valle Sagrado,Desinfección,124,124,277
+1.0,Propuesta,Cusco ciudad,Empaque descartable,216,216,259
+1.0,Propuesta,Valle Sagrado,Empaque descartable,193,193,259
+1.0,Propuesta,Cusco ciudad,Papel e higiene,296,296,289
+1.0,Propuesta,Valle Sagrado,Papel e higiene,127,127,289
+1.0,Propuesta,Cusco ciudad,Menaje descartable,243,243,227
+1.0,Propuesta,Valle Sagrado,Menaje descartable,90,90,227
+1.0,Propuesta,Cusco ciudad,Bolsas y film,84,84,114
+1.0,Propuesta,Valle Sagrado,Bolsas y film,82,82,114
+0.85,Actual ajustada,Cusco ciudad,Detergentes y limpiadores,327,0,348
+0.85,Actual ajustada,Valle Sagrado,Detergentes y limpiadores,181,62,348
+0.85,Actual ajustada,Cusco ciudad,Desinfección,248,165,195
+0.85,Actual ajustada,Valle Sagrado,Desinfección,124,124,195
+0.85,Actual ajustada,Cusco ciudad,Empaque descartable,216,216,318
+0.85,Actual ajustada,Valle Sagrado,Empaque descartable,193,193,318
+0.85,Actual ajustada,Cusco ciudad,Papel e higiene,296,277,270
+0.85,Actual ajustada,Valle Sagrado,Papel e higiene,127,127,270
+0.85,Actual ajustada,Cusco ciudad,Menaje descartable,243,228,212
+0.85,Actual ajustada,Valle Sagrado,Menaje descartable,90,90,212
+0.85,Actual ajustada,Cusco ciudad,Bolsas y film,84,84,121
+0.85,Actual ajustada,Valle Sagrado,Bolsas y film,82,82,121
+0.85,Propuesta,Cusco ciudad,Detergentes y limpiadores,327,0,0
+0.85,Propuesta,Valle Sagrado,Detergentes y limpiadores,181,0,0
+0.85,Propuesta,Cusco ciudad,Desinfección,248,248,251
+0.85,Propuesta,Valle Sagrado,Desinfección,124,97,251
+0.85,Propuesta,Cusco ciudad,Empaque descartable,216,216,259
+0.85,Propuesta,Valle Sagrado,Empaque descartable,193,193,259
+0.85,Propuesta,Cusco ciudad,Papel e higiene,296,296,289
+0.85,Propuesta,Valle Sagrado,Papel e higiene,127,127,289
+0.85,Propuesta,Cusco ciudad,Menaje descartable,243,243,227
+0.85,Propuesta,Valle Sagrado,Menaje descartable,90,90,227
+0.85,Propuesta,Cusco ciudad,Bolsas y film,84,84,114
+0.85,Propuesta,Valle Sagrado,Bolsas y film,82,82,114

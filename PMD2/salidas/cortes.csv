@@ -1,0 +1,4 @@
+﻿particion,filas,cuentas,positivos,desde,hasta
+Entrenamiento,6709,758,1989,2023-07-02,2026-04-05
+Validación,107,107,27,2026-05-03,2026-05-03
+Prueba,110,110,40,2026-06-07,2026-06-07

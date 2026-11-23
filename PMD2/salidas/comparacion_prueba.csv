@@ -1,0 +1,145 @@
+﻿zona,familia,modelo,semana,real,predicho,seleccionado
+Cusco ciudad,Bolsas y film,Ingenuo reciente,2026-10-05,46,24.0,True
+Cusco ciudad,Bolsas y film,Ingenuo reciente,2026-10-12,12,24.0,True
+Cusco ciudad,Bolsas y film,Ingenuo reciente,2026-10-19,30,24.0,True
+Cusco ciudad,Bolsas y film,Ingenuo reciente,2026-10-26,21,24.0,True
+Cusco ciudad,Bolsas y film,Ingenuo anual,2026-10-05,46,32.0,False
+Cusco ciudad,Bolsas y film,Ingenuo anual,2026-10-12,12,37.0,False
+Cusco ciudad,Bolsas y film,Ingenuo anual,2026-10-19,30,34.0,False
+Cusco ciudad,Bolsas y film,Ingenuo anual,2026-10-26,21,42.0,False
+Cusco ciudad,Bolsas y film,Holt-Winters,2026-10-05,46,38.59657941083683,False
+Cusco ciudad,Bolsas y film,Holt-Winters,2026-10-12,12,40.87349668133267,False
+Cusco ciudad,Bolsas y film,Holt-Winters,2026-10-19,30,35.48443665577421,False
+Cusco ciudad,Bolsas y film,Holt-Winters,2026-10-26,21,34.08579595055553,False
+Cusco ciudad,Desinfección,Ingenuo reciente,2026-10-05,45,67.0,True
+Cusco ciudad,Desinfección,Ingenuo reciente,2026-10-12,53,67.0,True
+Cusco ciudad,Desinfección,Ingenuo reciente,2026-10-19,42,67.0,True
+Cusco ciudad,Desinfección,Ingenuo reciente,2026-10-26,62,67.0,True
+Cusco ciudad,Desinfección,Ingenuo anual,2026-10-05,45,49.0,False
+Cusco ciudad,Desinfección,Ingenuo anual,2026-10-12,53,38.0,False
+Cusco ciudad,Desinfección,Ingenuo anual,2026-10-19,42,39.0,False
+Cusco ciudad,Desinfección,Ingenuo anual,2026-10-26,62,43.0,False
+Cusco ciudad,Desinfección,Holt-Winters,2026-10-05,45,55.03024956936278,False
+Cusco ciudad,Desinfección,Holt-Winters,2026-10-12,53,58.14050801879184,False
+Cusco ciudad,Desinfección,Holt-Winters,2026-10-19,42,50.81364738062703,False
+Cusco ciudad,Desinfección,Holt-Winters,2026-10-26,62,49.457976164683,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,2026-10-05,104,53.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,2026-10-12,82,53.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,2026-10-19,98,53.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,2026-10-26,59,53.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,2026-10-05,104,101.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,2026-10-12,82,55.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,2026-10-19,98,108.0,False
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,2026-10-26,59,59.0,False
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,2026-10-05,104,92.91423608654497,True
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,2026-10-12,82,81.18400503985652,True
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,2026-10-19,98,96.69048501210997,True
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,2026-10-26,59,86.30011940978423,True
+Cusco ciudad,Empaque descartable,Ingenuo reciente,2026-10-05,91,97.0,True
+Cusco ciudad,Empaque descartable,Ingenuo reciente,2026-10-12,100,97.0,True
+Cusco ciudad,Empaque descartable,Ingenuo reciente,2026-10-19,79,97.0,True
+Cusco ciudad,Empaque descartable,Ingenuo reciente,2026-10-26,54,97.0,True
+Cusco ciudad,Empaque descartable,Ingenuo anual,2026-10-05,91,90.0,False
+Cusco ciudad,Empaque descartable,Ingenuo anual,2026-10-12,100,56.0,False
+Cusco ciudad,Empaque descartable,Ingenuo anual,2026-10-19,79,74.0,False
+Cusco ciudad,Empaque descartable,Ingenuo anual,2026-10-26,54,75.0,False
+Cusco ciudad,Empaque descartable,Holt-Winters,2026-10-05,91,86.92839703129611,False
+Cusco ciudad,Empaque descartable,Holt-Winters,2026-10-12,100,75.04443703633959,False
+Cusco ciudad,Empaque descartable,Holt-Winters,2026-10-19,79,97.39137605338459,False
+Cusco ciudad,Empaque descartable,Holt-Winters,2026-10-26,54,98.61485812502482,False
+Cusco ciudad,Menaje descartable,Ingenuo reciente,2026-10-05,61,53.0,False
+Cusco ciudad,Menaje descartable,Ingenuo reciente,2026-10-12,39,53.0,False
+Cusco ciudad,Menaje descartable,Ingenuo reciente,2026-10-19,85,53.0,False
+Cusco ciudad,Menaje descartable,Ingenuo reciente,2026-10-26,63,53.0,False
+Cusco ciudad,Menaje descartable,Ingenuo anual,2026-10-05,61,42.0,True
+Cusco ciudad,Menaje descartable,Ingenuo anual,2026-10-12,39,69.0,True
+Cusco ciudad,Menaje descartable,Ingenuo anual,2026-10-19,85,68.0,True
+Cusco ciudad,Menaje descartable,Ingenuo anual,2026-10-26,63,77.0,True
+Cusco ciudad,Menaje descartable,Holt-Winters,2026-10-05,61,51.70420821849724,False
+Cusco ciudad,Menaje descartable,Holt-Winters,2026-10-12,39,62.594652823771945,False
+Cusco ciudad,Menaje descartable,Holt-Winters,2026-10-19,85,61.505619484827264,False
+Cusco ciudad,Menaje descartable,Holt-Winters,2026-10-26,63,62.408210691415285,False
+Cusco ciudad,Papel e higiene,Ingenuo reciente,2026-10-05,57,70.0,False
+Cusco ciudad,Papel e higiene,Ingenuo reciente,2026-10-12,94,70.0,False
+Cusco ciudad,Papel e higiene,Ingenuo reciente,2026-10-19,105,70.0,False
+Cusco ciudad,Papel e higiene,Ingenuo reciente,2026-10-26,49,70.0,False
+Cusco ciudad,Papel e higiene,Ingenuo anual,2026-10-05,57,72.0,False
+Cusco ciudad,Papel e higiene,Ingenuo anual,2026-10-12,94,74.0,False
+Cusco ciudad,Papel e higiene,Ingenuo anual,2026-10-19,105,48.0,False
+Cusco ciudad,Papel e higiene,Ingenuo anual,2026-10-26,49,93.0,False
+Cusco ciudad,Papel e higiene,Holt-Winters,2026-10-05,57,75.15434096948945,True
+Cusco ciudad,Papel e higiene,Holt-Winters,2026-10-12,94,77.06242004766115,True
+Cusco ciudad,Papel e higiene,Holt-Winters,2026-10-19,105,76.23399370542725,True
+Cusco ciudad,Papel e higiene,Holt-Winters,2026-10-26,49,87.12142069750928,True
+Valle Sagrado,Bolsas y film,Ingenuo reciente,2026-10-05,21,41.0,False
+Valle Sagrado,Bolsas y film,Ingenuo reciente,2026-10-12,14,41.0,False
+Valle Sagrado,Bolsas y film,Ingenuo reciente,2026-10-19,24,41.0,False
+Valle Sagrado,Bolsas y film,Ingenuo reciente,2026-10-26,26,41.0,False
+Valle Sagrado,Bolsas y film,Ingenuo anual,2026-10-05,21,36.0,False
+Valle Sagrado,Bolsas y film,Ingenuo anual,2026-10-12,14,18.0,False
+Valle Sagrado,Bolsas y film,Ingenuo anual,2026-10-19,24,25.0,False
+Valle Sagrado,Bolsas y film,Ingenuo anual,2026-10-26,26,11.0,False
+Valle Sagrado,Bolsas y film,Holt-Winters,2026-10-05,21,26.305928539755424,True
+Valle Sagrado,Bolsas y film,Holt-Winters,2026-10-12,14,17.297284360375322,True
+Valle Sagrado,Bolsas y film,Holt-Winters,2026-10-19,24,18.921414595854287,True
+Valle Sagrado,Bolsas y film,Holt-Winters,2026-10-26,26,17.58919533416557,True
+Valle Sagrado,Desinfección,Ingenuo reciente,2026-10-05,40,26.0,False
+Valle Sagrado,Desinfección,Ingenuo reciente,2026-10-12,32,26.0,False
+Valle Sagrado,Desinfección,Ingenuo reciente,2026-10-19,18,26.0,False
+Valle Sagrado,Desinfección,Ingenuo reciente,2026-10-26,20,26.0,False
+Valle Sagrado,Desinfección,Ingenuo anual,2026-10-05,40,31.0,False
+Valle Sagrado,Desinfección,Ingenuo anual,2026-10-12,32,15.0,False
+Valle Sagrado,Desinfección,Ingenuo anual,2026-10-19,18,20.0,False
+Valle Sagrado,Desinfección,Ingenuo anual,2026-10-26,20,29.0,False
+Valle Sagrado,Desinfección,Holt-Winters,2026-10-05,40,26.591662625630672,True
+Valle Sagrado,Desinfección,Holt-Winters,2026-10-12,32,19.25165419184053,True
+Valle Sagrado,Desinfección,Holt-Winters,2026-10-19,18,23.50766564142155,True
+Valle Sagrado,Desinfección,Holt-Winters,2026-10-26,20,27.056682884029605,True
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,2026-10-05,41,78.0,False
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,2026-10-12,82,78.0,False
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,2026-10-19,44,78.0,False
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,2026-10-26,46,78.0,False
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,2026-10-05,41,71.0,True
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,2026-10-12,82,43.0,True
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,2026-10-19,44,59.0,True
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,2026-10-26,46,32.0,True
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,2026-10-05,41,61.34089450888427,False
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,2026-10-12,82,61.578409158378406,False
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,2026-10-19,44,53.16562767568797,False
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,2026-10-26,46,53.07283186830074,False
+Valle Sagrado,Empaque descartable,Ingenuo reciente,2026-10-05,42,42.0,False
+Valle Sagrado,Empaque descartable,Ingenuo reciente,2026-10-12,33,42.0,False
+Valle Sagrado,Empaque descartable,Ingenuo reciente,2026-10-19,40,42.0,False
+Valle Sagrado,Empaque descartable,Ingenuo reciente,2026-10-26,68,42.0,False
+Valle Sagrado,Empaque descartable,Ingenuo anual,2026-10-05,42,50.0,False
+Valle Sagrado,Empaque descartable,Ingenuo anual,2026-10-12,33,33.0,False
+Valle Sagrado,Empaque descartable,Ingenuo anual,2026-10-19,40,43.0,False
+Valle Sagrado,Empaque descartable,Ingenuo anual,2026-10-26,68,39.0,False
+Valle Sagrado,Empaque descartable,Holt-Winters,2026-10-05,42,40.5460473333975,True
+Valle Sagrado,Empaque descartable,Holt-Winters,2026-10-12,33,39.366680375631105,True
+Valle Sagrado,Empaque descartable,Holt-Winters,2026-10-19,40,42.20257021671785,True
+Valle Sagrado,Empaque descartable,Holt-Winters,2026-10-26,68,38.698839190104025,True
+Valle Sagrado,Menaje descartable,Ingenuo reciente,2026-10-05,16,26.0,False
+Valle Sagrado,Menaje descartable,Ingenuo reciente,2026-10-12,12,26.0,False
+Valle Sagrado,Menaje descartable,Ingenuo reciente,2026-10-19,36,26.0,False
+Valle Sagrado,Menaje descartable,Ingenuo reciente,2026-10-26,27,26.0,False
+Valle Sagrado,Menaje descartable,Ingenuo anual,2026-10-05,16,37.0,False
+Valle Sagrado,Menaje descartable,Ingenuo anual,2026-10-12,12,16.0,False
+Valle Sagrado,Menaje descartable,Ingenuo anual,2026-10-19,36,51.0,False
+Valle Sagrado,Menaje descartable,Ingenuo anual,2026-10-26,27,16.0,False
+Valle Sagrado,Menaje descartable,Holt-Winters,2026-10-05,16,28.25280374015644,True
+Valle Sagrado,Menaje descartable,Holt-Winters,2026-10-12,12,29.473006059168174,True
+Valle Sagrado,Menaje descartable,Holt-Winters,2026-10-19,36,35.34822679087003,True
+Valle Sagrado,Menaje descartable,Holt-Winters,2026-10-26,27,24.5675235346097,True
+Valle Sagrado,Papel e higiene,Ingenuo reciente,2026-10-05,47,31.0,False
+Valle Sagrado,Papel e higiene,Ingenuo reciente,2026-10-12,25,31.0,False
+Valle Sagrado,Papel e higiene,Ingenuo reciente,2026-10-19,32,31.0,False
+Valle Sagrado,Papel e higiene,Ingenuo reciente,2026-10-26,22,31.0,False
+Valle Sagrado,Papel e higiene,Ingenuo anual,2026-10-05,47,38.0,False
+Valle Sagrado,Papel e higiene,Ingenuo anual,2026-10-12,25,24.0,False
+Valle Sagrado,Papel e higiene,Ingenuo anual,2026-10-19,32,42.0,False
+Valle Sagrado,Papel e higiene,Ingenuo anual,2026-10-26,22,54.0,False
+Valle Sagrado,Papel e higiene,Holt-Winters,2026-10-05,47,48.1681367003038,True
+Valle Sagrado,Papel e higiene,Holt-Winters,2026-10-12,25,37.33108548634045,True
+Valle Sagrado,Papel e higiene,Holt-Winters,2026-10-19,32,43.80738980917601,True
+Valle Sagrado,Papel e higiene,Holt-Winters,2026-10-26,22,41.614940143692344,True

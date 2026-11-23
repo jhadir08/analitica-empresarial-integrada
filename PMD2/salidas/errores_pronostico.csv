@@ -1,0 +1,145 @@
+﻿zona,familia,modelo,periodo,mae,wape
+Cusco ciudad,Bolsas y film,Ingenuo reciente,Validación 2026-07-13,5.75,0.15862068965517243
+Cusco ciudad,Bolsas y film,Ingenuo reciente,Validación 2026-08-10,6.25,0.2066115702479339
+Cusco ciudad,Bolsas y film,Ingenuo reciente,Validación 2026-09-07,13.75,0.32934131736526945
+Cusco ciudad,Bolsas y film,Ingenuo anual,Validación 2026-07-13,9.5,0.2620689655172414
+Cusco ciudad,Bolsas y film,Ingenuo anual,Validación 2026-08-10,14.5,0.4793388429752066
+Cusco ciudad,Bolsas y film,Ingenuo anual,Validación 2026-09-07,8.0,0.19161676646706588
+Cusco ciudad,Bolsas y film,Holt-Winters,Validación 2026-07-13,5.02524677675178,0.13862749728970428
+Cusco ciudad,Bolsas y film,Holt-Winters,Validación 2026-08-10,9.886368578117253,0.32682210175594223
+Cusco ciudad,Bolsas y film,Holt-Winters,Validación 2026-09-07,10.848460793228265,0.25984337229289256
+Cusco ciudad,Bolsas y film,Ingenuo reciente,Prueba,10.75,0.3944954128440367
+Cusco ciudad,Bolsas y film,Ingenuo anual,Prueba,16.0,0.5871559633027523
+Cusco ciudad,Bolsas y film,Holt-Winters,Prueba,13.711787469206394,0.5031848612552805
+Cusco ciudad,Desinfección,Ingenuo reciente,Validación 2026-07-13,9.25,0.11598746081504702
+Cusco ciudad,Desinfección,Ingenuo reciente,Validación 2026-08-10,20.0,0.291970802919708
+Cusco ciudad,Desinfección,Ingenuo reciente,Validación 2026-09-07,15.0,0.22058823529411764
+Cusco ciudad,Desinfección,Ingenuo anual,Validación 2026-07-13,27.0,0.3385579937304075
+Cusco ciudad,Desinfección,Ingenuo anual,Validación 2026-08-10,22.5,0.3284671532846715
+Cusco ciudad,Desinfección,Ingenuo anual,Validación 2026-09-07,21.25,0.3125
+Cusco ciudad,Desinfección,Holt-Winters,Validación 2026-07-13,26.930148444936663,0.3376821121622152
+Cusco ciudad,Desinfección,Holt-Winters,Validación 2026-08-10,15.785358204313592,0.23044318546443202
+Cusco ciudad,Desinfección,Holt-Winters,Validación 2026-09-07,13.676819422917433,0.2011296973958446
+Cusco ciudad,Desinfección,Ingenuo reciente,Prueba,16.5,0.32673267326732675
+Cusco ciudad,Desinfección,Ingenuo anual,Prueba,10.25,0.20297029702970298
+Cusco ciudad,Desinfección,Holt-Winters,Prueba,9.131607201024664,0.18082390497078543
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,Validación 2026-07-13,36.0,0.41379310344827586
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,Validación 2026-08-10,12.5,0.125
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,Validación 2026-09-07,42.25,0.5168195718654435
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,Validación 2026-07-13,29.75,0.34195402298850575
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,Validación 2026-08-10,27.0,0.27
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,Validación 2026-09-07,29.75,0.363914373088685
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,Validación 2026-07-13,13.925822677228677,0.16006692732446756
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,Validación 2026-08-10,17.023975743661516,0.17023975743661515
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,Validación 2026-09-07,20.75510398912141,0.25388506408711203
+Cusco ciudad,Detergentes y limpiadores,Ingenuo reciente,Prueba,32.75,0.3819241982507289
+Cusco ciudad,Detergentes y limpiadores,Ingenuo anual,Prueba,10.0,0.11661807580174927
+Cusco ciudad,Detergentes y limpiadores,Holt-Winters,Prueba,10.127848317818192,0.11810901828359407
+Cusco ciudad,Empaque descartable,Ingenuo reciente,Validación 2026-07-13,17.75,0.16099773242630386
+Cusco ciudad,Empaque descartable,Ingenuo reciente,Validación 2026-08-10,14.5,0.17791411042944785
+Cusco ciudad,Empaque descartable,Ingenuo reciente,Validación 2026-09-07,18.75,0.25597269624573377
+Cusco ciudad,Empaque descartable,Ingenuo anual,Validación 2026-07-13,33.75,0.30612244897959184
+Cusco ciudad,Empaque descartable,Ingenuo anual,Validación 2026-08-10,24.5,0.3006134969325153
+Cusco ciudad,Empaque descartable,Ingenuo anual,Validación 2026-09-07,12.75,0.17406143344709898
+Cusco ciudad,Empaque descartable,Holt-Winters,Validación 2026-07-13,32.13296937411189,0.29145550452709196
+Cusco ciudad,Empaque descartable,Holt-Winters,Validación 2026-08-10,16.415672270876126,0.20141929166719172
+Cusco ciudad,Empaque descartable,Holt-Winters,Validación 2026-09-07,15.148105563287707,0.20680007594932023
+Cusco ciudad,Empaque descartable,Ingenuo reciente,Prueba,17.5,0.21604938271604937
+Cusco ciudad,Empaque descartable,Ingenuo anual,Prueba,17.75,0.2191358024691358
+Cusco ciudad,Empaque descartable,Holt-Winters,Prueba,23.008350027693428,0.2840537040455979
+Cusco ciudad,Menaje descartable,Ingenuo reciente,Validación 2026-07-13,58.5,1.1818181818181819
+Cusco ciudad,Menaje descartable,Ingenuo reciente,Validación 2026-08-10,27.5,0.3691275167785235
+Cusco ciudad,Menaje descartable,Ingenuo reciente,Validación 2026-09-07,18.0,0.33962264150943394
+Cusco ciudad,Menaje descartable,Ingenuo anual,Validación 2026-07-13,16.25,0.3282828282828283
+Cusco ciudad,Menaje descartable,Ingenuo anual,Validación 2026-08-10,9.5,0.12751677852348994
+Cusco ciudad,Menaje descartable,Ingenuo anual,Validación 2026-09-07,5.75,0.10849056603773585
+Cusco ciudad,Menaje descartable,Holt-Winters,Validación 2026-07-13,27.067676933340817,0.5468217562291074
+Cusco ciudad,Menaje descartable,Holt-Winters,Validación 2026-08-10,11.00585567461046,0.1477296063706102
+Cusco ciudad,Menaje descartable,Holt-Winters,Validación 2026-09-07,10.991719358654429,0.20739093129536657
+Cusco ciudad,Menaje descartable,Ingenuo reciente,Prueba,16.0,0.25806451612903225
+Cusco ciudad,Menaje descartable,Ingenuo anual,Prueba,20.0,0.3225806451612903
+Cusco ciudad,Menaje descartable,Holt-Winters,Prueba,14.244153607258038,0.22974441302029094
+Cusco ciudad,Papel e higiene,Ingenuo reciente,Validación 2026-07-13,12.75,0.1540785498489426
+Cusco ciudad,Papel e higiene,Ingenuo reciente,Validación 2026-08-10,19.75,0.20844327176781002
+Cusco ciudad,Papel e higiene,Ingenuo reciente,Validación 2026-09-07,46.25,0.5657492354740061
+Cusco ciudad,Papel e higiene,Ingenuo anual,Validación 2026-07-13,26.25,0.31722054380664655
+Cusco ciudad,Papel e higiene,Ingenuo anual,Validación 2026-08-10,31.0,0.32717678100263853
+Cusco ciudad,Papel e higiene,Ingenuo anual,Validación 2026-09-07,16.5,0.2018348623853211
+Cusco ciudad,Papel e higiene,Holt-Winters,Validación 2026-07-13,16.330681378816443,0.19734962391318964
+Cusco ciudad,Papel e higiene,Holt-Winters,Validación 2026-08-10,25.12943858816731,0.26521834921548615
+Cusco ciudad,Papel e higiene,Holt-Winters,Validación 2026-09-07,14.177953614357431,0.17343062525207867
+Cusco ciudad,Papel e higiene,Ingenuo reciente,Prueba,23.25,0.30491803278688523
+Cusco ciudad,Papel e higiene,Ingenuo anual,Prueba,34.0,0.4459016393442623
+Cusco ciudad,Papel e higiene,Holt-Winters,Prueba,25.494836978477583,0.33435851775052566
+Valle Sagrado,Bolsas y film,Ingenuo reciente,Validación 2026-07-13,16.75,0.6767676767676768
+Valle Sagrado,Bolsas y film,Ingenuo reciente,Validación 2026-08-10,8.25,0.44
+Valle Sagrado,Bolsas y film,Ingenuo reciente,Validación 2026-09-07,14.0,0.8
+Valle Sagrado,Bolsas y film,Ingenuo anual,Validación 2026-07-13,9.5,0.3838383838383838
+Valle Sagrado,Bolsas y film,Ingenuo anual,Validación 2026-08-10,8.0,0.4266666666666667
+Valle Sagrado,Bolsas y film,Ingenuo anual,Validación 2026-09-07,8.25,0.4714285714285714
+Valle Sagrado,Bolsas y film,Holt-Winters,Validación 2026-07-13,5.597690938884057,0.2261693308640023
+Valle Sagrado,Bolsas y film,Holt-Winters,Validación 2026-08-10,7.083477876204384,0.37778548673090045
+Valle Sagrado,Bolsas y film,Holt-Winters,Validación 2026-09-07,10.614014513429098,0.6065151150530913
+Valle Sagrado,Bolsas y film,Ingenuo reciente,Prueba,19.75,0.9294117647058824
+Valle Sagrado,Bolsas y film,Ingenuo anual,Prueba,8.75,0.4117647058823529
+Valle Sagrado,Bolsas y film,Holt-Winters,Prueba,5.523150742527722,0.25991297611895164
+Valle Sagrado,Desinfección,Ingenuo reciente,Validación 2026-07-13,14.5,0.43283582089552236
+Valle Sagrado,Desinfección,Ingenuo reciente,Validación 2026-08-10,18.75,0.6097560975609756
+Valle Sagrado,Desinfección,Ingenuo reciente,Validación 2026-09-07,8.75,0.28
+Valle Sagrado,Desinfección,Ingenuo anual,Validación 2026-07-13,7.25,0.21641791044776118
+Valle Sagrado,Desinfección,Ingenuo anual,Validación 2026-08-10,10.75,0.34959349593495936
+Valle Sagrado,Desinfección,Ingenuo anual,Validación 2026-09-07,13.25,0.424
+Valle Sagrado,Desinfección,Holt-Winters,Validación 2026-07-13,5.751089137806892,0.17167430262110125
+Valle Sagrado,Desinfección,Holt-Winters,Validación 2026-08-10,11.385972061911644,0.37027551420850874
+Valle Sagrado,Desinfección,Holt-Winters,Validación 2026-09-07,12.582628576940746,0.40264411446210385
+Valle Sagrado,Desinfección,Ingenuo reciente,Prueba,8.5,0.3090909090909091
+Valle Sagrado,Desinfección,Ingenuo anual,Prueba,9.25,0.33636363636363636
+Valle Sagrado,Desinfección,Holt-Winters,Prueba,9.680257926994988,0.35200937916345415
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,Validación 2026-07-13,4.25,0.11564625850340136
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,Validación 2026-08-10,16.0,0.29906542056074764
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,Validación 2026-09-07,23.25,0.4025974025974026
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,Validación 2026-07-13,7.0,0.19047619047619047
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,Validación 2026-08-10,16.25,0.3037383177570093
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,Validación 2026-09-07,15.5,0.2683982683982684
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,Validación 2026-07-13,4.80694762592156,0.1308012959434438
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,Validación 2026-08-10,17.34975077337058,0.32429440697888934
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,Validación 2026-09-07,17.098355048610877,0.29607541209715804
+Valle Sagrado,Detergentes y limpiadores,Ingenuo reciente,Prueba,26.75,0.5023474178403756
+Valle Sagrado,Detergentes y limpiadores,Ingenuo anual,Prueba,24.5,0.460093896713615
+Valle Sagrado,Detergentes y limpiadores,Holt-Winters,Prueba,14.250236223623643,0.26761006992720454
+Valle Sagrado,Empaque descartable,Ingenuo reciente,Validación 2026-07-13,26.25,0.5440414507772021
+Valle Sagrado,Empaque descartable,Ingenuo reciente,Validación 2026-08-10,8.5,0.21518987341772153
+Valle Sagrado,Empaque descartable,Ingenuo reciente,Validación 2026-09-07,15.0,0.35714285714285715
+Valle Sagrado,Empaque descartable,Ingenuo anual,Validación 2026-07-13,7.25,0.15025906735751296
+Valle Sagrado,Empaque descartable,Ingenuo anual,Validación 2026-08-10,16.75,0.4240506329113924
+Valle Sagrado,Empaque descartable,Ingenuo anual,Validación 2026-09-07,12.5,0.2976190476190476
+Valle Sagrado,Empaque descartable,Holt-Winters,Validación 2026-07-13,5.835314057983975,0.12093915146080778
+Valle Sagrado,Empaque descartable,Holt-Winters,Validación 2026-08-10,7.798680298270002,0.19743494426000005
+Valle Sagrado,Empaque descartable,Holt-Winters,Validación 2026-09-07,17.02007235389341,0.40523981794984315
+Valle Sagrado,Empaque descartable,Ingenuo reciente,Prueba,9.25,0.20218579234972678
+Valle Sagrado,Empaque descartable,Ingenuo anual,Prueba,10.0,0.2185792349726776
+Valle Sagrado,Empaque descartable,Holt-Winters,Prueba,9.831091017211858,0.21488723534889306
+Valle Sagrado,Menaje descartable,Ingenuo reciente,Validación 2026-07-13,21.5,0.6056338028169014
+Valle Sagrado,Menaje descartable,Ingenuo reciente,Validación 2026-08-10,9.25,0.22424242424242424
+Valle Sagrado,Menaje descartable,Ingenuo reciente,Validación 2026-09-07,9.25,0.3394495412844037
+Valle Sagrado,Menaje descartable,Ingenuo anual,Validación 2026-07-13,10.5,0.29577464788732394
+Valle Sagrado,Menaje descartable,Ingenuo anual,Validación 2026-08-10,9.5,0.23030303030303031
+Valle Sagrado,Menaje descartable,Ingenuo anual,Validación 2026-09-07,16.5,0.6055045871559633
+Valle Sagrado,Menaje descartable,Holt-Winters,Validación 2026-07-13,8.300196140245518,0.23380834197874698
+Valle Sagrado,Menaje descartable,Holt-Winters,Validación 2026-08-10,6.782399571457342,0.16442180779290524
+Valle Sagrado,Menaje descartable,Holt-Winters,Validación 2026-09-07,7.327488325072593,0.2688986541311043
+Valle Sagrado,Menaje descartable,Ingenuo reciente,Prueba,8.75,0.38461538461538464
+Valle Sagrado,Menaje descartable,Ingenuo anual,Prueba,12.75,0.5604395604395604
+Valle Sagrado,Menaje descartable,Holt-Winters,Prueba,8.202514868461222,0.36055010410818555
+Valle Sagrado,Papel e higiene,Ingenuo reciente,Validación 2026-07-13,9.75,0.2727272727272727
+Valle Sagrado,Papel e higiene,Ingenuo reciente,Validación 2026-08-10,25.0,0.5555555555555556
+Valle Sagrado,Papel e higiene,Ingenuo reciente,Validación 2026-09-07,10.5,0.25301204819277107
+Valle Sagrado,Papel e higiene,Ingenuo anual,Validación 2026-07-13,15.0,0.4195804195804196
+Valle Sagrado,Papel e higiene,Ingenuo anual,Validación 2026-08-10,15.25,0.3388888888888889
+Valle Sagrado,Papel e higiene,Ingenuo anual,Validación 2026-09-07,14.5,0.3493975903614458
+Valle Sagrado,Papel e higiene,Holt-Winters,Validación 2026-07-13,13.986224836419673,0.39122307234740344
+Valle Sagrado,Papel e higiene,Holt-Winters,Validación 2026-08-10,11.24155685080579,0.24981237446235088
+Valle Sagrado,Papel e higiene,Holt-Winters,Validación 2026-09-07,6.326845460486497,0.15245410748160235
+Valle Sagrado,Papel e higiene,Ingenuo reciente,Prueba,8.0,0.25396825396825395
+Valle Sagrado,Papel e higiene,Ingenuo anual,Prueba,13.0,0.4126984126984127
+Valle Sagrado,Papel e higiene,Holt-Winters,Prueba,11.23038803487815,0.35652025507549684
