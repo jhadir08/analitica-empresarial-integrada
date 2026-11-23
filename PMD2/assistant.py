@@ -84,6 +84,41 @@ def language_model(questions, sources, model):
                     "nota":"Pesos locales. La latencia indicada corresponde al lote de inferencia."}
 
 
+def manual_sql_baseline(sources):
+    """Run the hand-written comparisons on the current document extracts."""
+    import duckdb
+    import pandas as pd
+
+    query = """
+        WITH criterios(pregunta_id, documento, asunto) AS (
+            VALUES
+                (1, 'SS-DOC-01', '%línea aprobada%'),
+                (2, 'SS-DOC-01', '%saldo vencido%'),
+                (3, 'SS-DOC-01', '%cuentas nuevas%'),
+                (4, 'SS-DOC-01', '%pedido mínimo%'),
+                (5, 'SS-DOC-01', '%líneas de crédito las aprueba%'),
+                (6, 'SS-DOC-02', '%reclamos por producto%'),
+                (7, 'SS-DOC-02', '%se emite una nota de crédito%'),
+                (8, 'SS-DOC-02', '%no se aceptan devoluciones%'),
+                (9, 'SS-DOC-03', '%el plazo de entrega%'),
+                (10, 'SS-DOC-03', '%se agrupan por ruta%'),
+                (11, 'SS-DOC-04', '%capacidad de carga y de reparto%'),
+                (12, 'SS-DOC-04', '%las excepciones las autoriza%')
+        )
+        SELECT c.pregunta_id, f.id, f.version, f.title, f.text, f.source
+        FROM criterios c
+        JOIN extractos_vigentes f ON c.documento = f.id AND f.text ILIKE c.asunto
+        ORDER BY c.pregunta_id, f.id, f.version, f.text
+    """
+    with duckdb.connect() as database:
+        database.register("extractos_vigentes", pd.DataFrame(sources))
+        selected = database.execute(query).df()
+    return {
+        int(case_id): response(rows.drop(columns="pregunta_id").to_dict("records"))
+        for case_id, rows in selected.groupby("pregunta_id")
+    }
+
+
 def evaluate(sources, cases, model=None):
     results=[]
     runs=[]
@@ -91,6 +126,11 @@ def evaluate(sources, cases, model=None):
         start=time.perf_counter()
         answer=response(retrieve(case["pregunta"],sources))
         runs.append(("Determinista",case,answer,1000*(time.perf_counter()-start)))
+    # Para la batería fija, cubrir temas admitidos con SQL escrito a mano.
+    start = time.perf_counter()
+    manual = manual_sql_baseline(sources)
+    batch_ms = 1000 * (time.perf_counter() - start)
+    runs.extend(("SQL manual", case, manual.get(case["id"], response([])), batch_ms) for case in cases)
     llm_status="Sin ejecución de LLM"
     usage={}
     if model:

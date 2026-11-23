@@ -39,4 +39,11 @@ Responsables propuestos para el avance del equipo.
 | Mayorca Parra, Sara | Revisar los grupos de muestra pequeña, políticas vigentes y preparación de la matriz normativa. |
 | Yupanqui Chahua, Jhadir | Validar la publicación, corregir defectos del asistente con casos de regresión y comprobar las cifras en el producto. |
 
-El despliegue separado usa la API de Render y el frontend de Netlify. El adaptador Streamlit puede importar las mismas salidas y llamar a los mismos componentes de consulta. Antes de la demo, comparar pronóstico, escenarios, control, auditoría y evaluación con el JSON generado por el notebook. Mantener la ficha de defectos junto a las pruebas fijas.
+## Plan de integración en Streamlit
+
+1. Exportar el JSON y los CSV desde el Colab. El adaptador de Streamlit leerá esas mismas salidas y validará el número de series y escenarios al iniciar.
+2. Mostrar tres vistas. Decisión muestra el riesgo, demanda, compras y margen por escenario. Control muestra la carta por zona y la auditoría. Asistente muestra documentos citados, pruebas fijas y defectos.
+3. Conectar la consulta al módulo del asistente detrás de la API. Las vistas de carga y error permiten revisar el tablero a partir del JSON. El resultado público excluye identificadores de cuentas.
+4. Verificar en la demo los 12 escenarios, las 48 filas de pronóstico y las 20 preguntas por motor. Confirmar que el cambio de capacidad y de zona produce las mismas cifras que el Colab. Jhadir coordina las pruebas de integración y Sara valida el registro de defectos.
+
+La implementación publicada en Netlify usa una interfaz separada. El backend FastAPI está probado localmente y su despliegue en Render sigue pendiente. El adaptador de Streamlit queda planificado para el siguiente hito.
